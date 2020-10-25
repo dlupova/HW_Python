@@ -3,7 +3,7 @@ import os
 
 m_now = (dt.datetime.now()).month
 d_now = (dt.datetime.now()).day
-print('Welocome to the DeadlineTracker!\nCommands:\n' + \
+print('Welcome to the DeadlineTracker!\nCommands:\n' + \
       '> Enter "add" to add new deadline\n' + \
       '> Enter "next" to see closest deadline\n' + \
       '> Enter "all" to see all deadlines\n' + \
