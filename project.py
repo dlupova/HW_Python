@@ -10,7 +10,6 @@ print('Welocome to the DeadlineTracker!\nCommands:\n' + \
       '> Enter "date" (MM/DD) to see deadlines for specific day\n' + \
       '> Enter "clear" to remove all deadlines\n' + \
       '> Enter "exit" to close\n')
-
 with open('C:/Users/One/.spyder-py3/deadlines.txt', 'a+') as dl:
     if os.stat("deadlines.txt").st_size == 0:  
         deadlines = {}
